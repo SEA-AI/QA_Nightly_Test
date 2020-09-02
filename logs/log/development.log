@@ -1,0 +1,286 @@
+10:54:17.024 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+10:54:17.025 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+10:54:17.025 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+10:54:17.028 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+10:54:17.029 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+10:54:17.029 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+10:54:17.030 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+10:54:17.030 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+10:54:17.030 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+10:54:17.032 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+10:54:17.033 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+10:54:17.038 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+10:54:17.042 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+10:54:17.042 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+10:54:17.043 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+10:54:17.044 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+10:54:17.044 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+10:54:17.142 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+10:54:17.144 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+10:54:17.145 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+10:54:17.150 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+10:54:17.152 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+10:54:17.155 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+10:54:27.028 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+10:54:27.032 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+10:54:27.052 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+10:54:27.064 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 482
+10:54:27.065 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+10:54:27.077 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 483
+10:54:27.077 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+10:54:27.096 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 484
+10:54:27.112 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 488
+10:54:27.119 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 489
+10:54:27.120 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+10:54:27.143 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 48b
+10:54:32.148 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+10:54:32.151 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+10:54:32.152 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+10:54:32.153 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+10:54:32.154 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+10:54:32.186 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+10:54:32.207 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 48d
+10:54:32.235 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 490
+10:54:32.241 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 491
+10:54:51.566 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:54:58.783 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:55:03.508 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:07.608 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:12.400 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:16.237 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:21.044 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:24.894 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:29.655 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:34.601 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:39.473 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:44.334 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:49.229 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:54.220 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:58:59.135 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:04.649 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:09.782 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:15.199 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:19.898 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:28.868 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:33.708 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:38.787 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:43.569 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+10:59:43.995 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:01:31.279 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:01:31.281 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:31.282 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:31.285 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:01:31.285 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:31.285 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:31.286 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:01:31.286 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:31.287 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:31.289 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:01:31.290 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:31.293 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:01:31.295 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:01:31.296 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:31.297 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:01:31.298 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:01:31.298 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:31.379 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:01:31.382 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:01:31.383 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.385 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.386 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.390 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:01:41.286 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:41.287 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:41.286 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:46.368 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.worker.FakeWorkerSocketClient.<init>(FakeWorkerSocketClient.java:33) [classes/:?]
+	at extern.bsb.server.dev.worker.FakeWorkerThread.run(FakeWorkerThread.java:76) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:46.368 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.worker.FakeWorkerSocketClient.<init>(FakeWorkerSocketClient.java:33) [classes/:?]
+	at extern.bsb.server.dev.worker.FakeWorkerThread.run(FakeWorkerThread.java:76) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:46.368 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.worker.FakeWorkerSocketClient.<init>(FakeWorkerSocketClient.java:33) [classes/:?]
+	at extern.bsb.server.dev.worker.FakeWorkerThread.run(FakeWorkerThread.java:76) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:46.384 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:46.386 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:46.386 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:46.386 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:46.387 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:46.387 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:51.391 [ERROR] [    Development] [   FakeSensorSocketClient:  35] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) [classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:51.392 [ERROR] [    Development] [   FakeSensorSocketClient:  35] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) [classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:51.397 [ERROR] [    Development] [         FakeSensorThread: 198] - Exception
+java.lang.RuntimeException: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:36) ~[classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+17:01:51.397 [ERROR] [    Development] [         FakeSensorThread: 198] - Exception
+java.lang.RuntimeException: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:36) ~[classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+17:01:51.398 [ERROR] [    Development] [   FakeSensorSocketClient:  35] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) [classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:51.404 [ERROR] [    Development] [         FakeSensorThread: 198] - Exception
+java.lang.RuntimeException: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:36) ~[classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+17:02:26.045 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:30.386 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:37.827 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:45.510 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:53.364 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:02.492 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:10.626 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:18.725 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:25.507 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
