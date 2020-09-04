@@ -1,247 +1,98 @@
-17:23:44.629 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
-17:23:44.629 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:23:44.629 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:23:44.635 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
-17:23:44.635 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:23:44.636 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:23:44.640 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
-17:23:44.641 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:23:44.641 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:23:44.654 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
-17:23:44.654 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:23:44.658 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
-17:23:44.669 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
-17:23:44.669 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:23:44.670 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
-17:23:44.671 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
-17:23:44.671 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:23:44.771 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
-17:23:44.772 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
-17:23:44.774 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:23:44.781 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:23:44.782 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:23:44.786 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
-17:23:54.632 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:23:54.636 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:23:54.642 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:23:54.657 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 33
-17:23:54.658 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:23:54.661 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 34
-17:23:54.662 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:23:54.657 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 32
-17:23:54.667 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:23:54.673 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 36
-17:23:54.691 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 39
-17:23:54.692 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 3a
-17:23:59.774 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:23:59.776 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:23:59.781 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:23:59.781 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:23:59.783 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:23:59.785 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:23:59.788 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 3c
-17:23:59.801 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 3e
-17:23:59.803 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 40
-17:26:07.658 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:01:30.596 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
-17:01:30.598 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:01:30.598 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:01:30.600 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
-17:01:30.601 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:01:30.601 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:01:30.602 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
-17:01:30.602 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:01:30.603 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:01:30.606 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
-17:01:30.606 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:01:30.610 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
-17:01:30.613 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
-17:01:30.613 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:01:30.614 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
-17:01:30.615 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
-17:01:30.615 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:01:30.729 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
-17:01:30.730 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
-17:01:30.732 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:01:30.740 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:01:30.743 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:01:30.747 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
-17:01:40.601 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:01:40.602 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:01:40.603 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:01:40.662 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 8
-17:01:40.662 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 9
-17:01:40.662 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: a
-17:01:40.663 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:01:40.663 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:01:40.663 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:01:40.695 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: c
-17:01:40.699 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e
-17:01:40.704 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 10
-17:01:45.732 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:01:45.734 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:01:45.741 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:01:45.741 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:01:45.744 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:01:45.744 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 14
-17:01:45.744 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:01:45.753 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 18
-17:01:45.753 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 17
-17:04:20.021 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:06:02.845 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:06:26.749 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:06:48.619 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:10:15.183 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:10:24.674 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:19:18.682 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:19:21.075 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:19:24.477 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:20:25.051 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:29.060 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:32.610 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:36.681 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:40.419 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:44.411 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:49.517 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:24:53.539 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:04.660 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:08.693 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:13.909 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:17.952 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:25.362 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:29.474 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:38.385 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:49.382 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:53.156 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:25:57.983 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:26:01.752 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:26:07.777 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:26:11.524 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:26:14.611 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:26:15.365 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:27:04.361 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 18
-17:27:04.362 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 17
-17:27:04.362 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: 8
-17:27:04.361 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 14
-17:27:04.361 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: 9
-17:27:04.369 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: e
-17:27:04.381 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: c
-17:27:04.383 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: a
-17:27:04.391 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: 10
-17:27:11.425 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
-17:27:11.426 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
-17:27:11.428 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
-17:27:11.429 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
-17:27:11.430 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
-17:27:11.431 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
-17:27:11.433 [DEBUG] [    Development] [         FakeWorkerThread: 265] - Kill appFakeWorkerClientOutcomeSink
-17:27:11.434 [DEBUG] [    Development] [         FakeWorkerThread: 283] - Kill appFakeWorkerClientOutcomeSink
-17:27:11.434 [DEBUG] [    Development] [         FakeWorkerThread: 265] - Kill appFakeWorkerClientOutcomeSink
-17:27:11.435 [DEBUG] [    Development] [         FakeWorkerThread: 283] - Kill appFakeWorkerClientOutcomeSink
-17:27:11.435 [DEBUG] [    Development] [         FakeWorkerThread: 265] - Kill appFakeWorkerClientOutcomeSink
-17:27:11.436 [DEBUG] [    Development] [         FakeWorkerThread: 283] - Kill appFakeWorkerClientOutcomeSink
-17:27:11.437 [DEBUG] [    Development] [              FakeWorkers:  40] - Kill scheduledExecutorService
-17:27:26.184 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
-17:27:26.184 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:27:26.185 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:27:26.186 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
-17:27:26.186 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:27:26.186 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:27:26.187 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
-17:27:26.187 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:27:26.188 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:27:26.190 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
-17:27:26.190 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:27:26.195 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
-17:27:26.198 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
-17:27:26.199 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:27:26.200 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
-17:27:26.200 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
-17:27:26.200 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:27:26.256 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
-17:27:26.257 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
-17:27:26.259 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:27:26.260 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:27:26.261 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:27:26.264 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
-17:27:36.235 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:27:36.236 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:27:36.250 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:27:36.274 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: cc
-17:27:36.274 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:27:36.280 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: cd
-17:27:36.280 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:27:36.285 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: d1
-17:27:36.285 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: d0
-17:27:36.285 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:27:36.292 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: d3
-17:27:36.316 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: d5
-17:27:41.259 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:27:41.261 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:27:41.262 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:27:41.262 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:27:41.262 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:27:41.263 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:27:41.360 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: da
-17:27:41.372 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: db
-17:27:41.377 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: d9
-17:27:49.635 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:27:57.148 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:28:01.879 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:05.035 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:09.852 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:13.549 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:18.273 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:22.232 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:26.937 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:31.389 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:36.128 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:40.581 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:45.273 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:49.835 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:54.573 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:31:59.029 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:03.989 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:08.698 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:13.444 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:17.856 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:22.600 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:26.686 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:31.345 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:32:31.738 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:01:31.481 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
-17:01:31.484 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:01:31.484 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
-17:01:31.486 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
-17:01:31.486 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:01:31.487 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
-17:01:31.489 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
-17:01:31.489 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:01:31.490 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
-17:01:31.494 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
-17:01:31.494 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:01:31.498 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
-17:01:31.501 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
-17:01:31.501 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:01:31.502 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
-17:01:31.503 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
-17:01:31.503 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:01:31.589 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
-17:01:31.591 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
-17:01:31.592 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:01:31.594 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:01:31.604 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
-17:01:31.607 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
-17:01:41.491 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
-17:01:41.491 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
-17:01:41.491 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
-17:01:46.593 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:01:46.595 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:01:46.597 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
-17:01:46.599 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
-17:01:46.604 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:01:46.605 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
-17:01:46.606 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+17:23:47.831 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:23:47.832 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:23:47.832 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:23:47.833 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:23:47.834 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:23:47.834 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:23:47.834 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:23:47.835 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:23:47.835 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:23:47.837 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:23:47.838 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:23:47.841 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:23:47.844 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:23:47.845 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:23:47.846 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:23:47.846 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:23:47.846 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:23:47.901 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:23:47.902 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:23:47.903 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:23:47.905 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:23:47.906 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:23:47.909 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:23:57.839 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:23:57.839 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:23:57.839 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:23:57.855 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 9c
+17:23:57.855 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:23:57.857 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 9e
+17:23:57.857 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:23:57.860 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 9f
+17:23:57.860 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:23:57.877 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: a2
+17:23:57.888 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: a3
+17:23:57.897 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: a5
+17:24:02.904 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:24:02.906 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:24:02.906 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:24:02.906 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:24:02.915 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:24:02.916 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:24:02.928 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: a8
+17:24:02.933 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: aa
+17:24:02.960 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: ac
+17:24:14.810 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:23.057 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:28.026 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:32.329 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:37.085 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:40.910 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:45.664 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:49.716 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:54.527 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:58.925 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:03.631 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:07.970 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:12.634 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:16.911 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:21.630 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:26.054 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:30.772 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:35.353 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:40.091 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:44.390 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:49.086 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:53.576 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:58.243 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:58.644 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:01:32.125 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:01:32.127 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:32.127 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:32.138 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:01:32.139 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:32.139 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:32.139 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:01:32.140 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:32.140 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:32.142 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:01:32.143 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:32.147 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:01:32.150 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:01:32.150 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:32.151 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:01:32.151 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:01:32.152 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:32.320 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:01:32.322 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:01:32.323 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:32.325 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:32.325 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:32.330 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:01:42.142 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:42.142 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:42.142 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:47.244 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
 javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -259,7 +110,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	... 10 more
-17:01:46.610 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+17:01:47.250 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
 javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -277,7 +128,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	... 10 more
-17:01:46.613 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+17:01:47.250 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
 javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -295,16 +146,579 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	... 10 more
-17:01:49.109 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 0
-17:01:49.111 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 7
-17:01:49.114 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 4
-17:02:24.539 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:02:28.652 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:02:36.559 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:02:43.190 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:02:50.332 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:02:58.214 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:03:05.751 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:03:11.308 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:03:13.645 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
-17:03:20.432 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:01:47.324 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:47.325 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:47.326 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:47.326 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:47.326 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:47.327 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:49.691 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 3
+17:01:49.695 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 7
+17:01:49.696 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 4
+17:02:25.755 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:32.655 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:39.298 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:46.783 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:54.519 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:01.906 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:09.716 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:16.141 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:23.114 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:29.472 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:23:24.232 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:23:29.777 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:23:31.690 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:23:33.401 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:23:41.244 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:25:08.386 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:25:11.884 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:25:47.611 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:26:23.350 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:26:59.649 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:27:35.772 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:28:11.570 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:33:59.768 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:34:07.187 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:34:13.353 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:34:19.544 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:34:55.580 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:36.834 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:58.280 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:58.988 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:45:50.699 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 7
+17:45:50.700 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 3
+17:45:50.700 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 4
+17:45:57.728 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:45:57.730 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:45:57.731 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:45:57.732 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:45:57.734 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:45:57.735 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:45:57.737 [DEBUG] [    Development] [         FakeWorkerThread: 262] - appFakeWorkerClientOutcomeSink already killed
+17:45:57.738 [DEBUG] [    Development] [         FakeWorkerThread: 280] - appFakeWorkerClientOutcomeSink already killed
+17:45:57.739 [DEBUG] [    Development] [         FakeWorkerThread: 262] - appFakeWorkerClientOutcomeSink already killed
+17:45:57.739 [DEBUG] [    Development] [         FakeWorkerThread: 280] - appFakeWorkerClientOutcomeSink already killed
+17:45:57.740 [DEBUG] [    Development] [         FakeWorkerThread: 262] - appFakeWorkerClientOutcomeSink already killed
+17:45:57.740 [DEBUG] [    Development] [         FakeWorkerThread: 280] - appFakeWorkerClientOutcomeSink already killed
+17:45:57.741 [DEBUG] [    Development] [              FakeWorkers:  40] - Kill scheduledExecutorService
+17:46:10.625 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:46:10.626 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:46:10.626 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:46:10.627 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:46:10.628 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:46:10.628 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:46:10.629 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:46:10.629 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:46:10.629 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:46:10.632 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:46:10.632 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:46:10.810 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:46:10.818 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:46:10.820 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:46:10.908 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:46:10.910 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:46:10.911 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:46:11.001 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:46:11.002 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:46:11.003 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:46:11.005 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:46:11.005 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:46:11.009 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:46:20.628 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:46:20.628 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:46:20.631 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:46:20.644 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: df
+17:46:20.644 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:46:20.657 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e3
+17:46:20.657 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:46:20.659 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e4
+17:46:20.659 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:46:20.661 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e5
+17:46:20.690 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e7
+17:46:20.699 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e9
+17:46:26.004 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:46:26.005 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:46:26.005 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:46:26.006 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:46:26.006 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:46:26.006 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:46:26.014 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: ec
+17:46:26.016 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: ee
+17:46:26.024 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: f0
+17:48:45.210 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:01:31.557 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:01:31.563 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:31.564 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:31.566 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:01:31.566 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:31.566 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:31.567 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:01:31.568 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:31.568 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:31.571 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:01:31.571 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:31.575 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:01:31.578 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:01:31.578 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:31.579 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:01:31.580 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:01:31.580 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:31.647 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:01:31.648 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:01:31.649 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.651 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.652 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.655 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:01:41.571 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:41.571 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:41.571 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:46.650 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:46.652 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:46.652 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:46.655 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:46.656 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:46.659 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:46.697 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.worker.FakeWorkerSocketClient.<init>(FakeWorkerSocketClient.java:33) [classes/:?]
+	at extern.bsb.server.dev.worker.FakeWorkerThread.run(FakeWorkerThread.java:76) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:46.693 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.worker.FakeWorkerSocketClient.<init>(FakeWorkerSocketClient.java:33) [classes/:?]
+	at extern.bsb.server.dev.worker.FakeWorkerThread.run(FakeWorkerThread.java:76) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:46.696 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.worker.FakeWorkerSocketClient.<init>(FakeWorkerSocketClient.java:33) [classes/:?]
+	at extern.bsb.server.dev.worker.FakeWorkerThread.run(FakeWorkerThread.java:76) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_222]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_222]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_222]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_222]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_222]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:01:48.696 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 2
+17:01:48.697 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 5
+17:01:48.698 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 0
+17:02:24.041 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:33.095 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:34.833 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:36.506 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:01.965 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:05.425 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:09.294 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:13.413 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:17.254 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:22.068 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:25.919 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:37.301 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:41.289 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:46.703 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:50.570 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:04:57.583 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:05:01.630 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:05:10.557 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:22.319 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:25.978 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:30.603 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:34.309 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:40.449 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:44.054 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:47.066 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:10:47.518 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:11:28.645 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 0
+17:11:28.646 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 5
+17:11:28.648 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 2
+17:11:35.699 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:11:35.700 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:11:35.702 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:11:35.703 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:11:35.704 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:11:35.705 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:11:35.708 [DEBUG] [    Development] [         FakeWorkerThread: 262] - appFakeWorkerClientOutcomeSink already killed
+17:11:35.709 [DEBUG] [    Development] [         FakeWorkerThread: 280] - appFakeWorkerClientOutcomeSink already killed
+17:11:35.709 [DEBUG] [    Development] [         FakeWorkerThread: 262] - appFakeWorkerClientOutcomeSink already killed
+17:11:35.710 [DEBUG] [    Development] [         FakeWorkerThread: 280] - appFakeWorkerClientOutcomeSink already killed
+17:11:35.710 [DEBUG] [    Development] [         FakeWorkerThread: 262] - appFakeWorkerClientOutcomeSink already killed
+17:11:35.711 [DEBUG] [    Development] [         FakeWorkerThread: 280] - appFakeWorkerClientOutcomeSink already killed
+17:11:35.711 [DEBUG] [    Development] [              FakeWorkers:  40] - Kill scheduledExecutorService
+17:11:50.307 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:11:50.308 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:11:50.308 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:11:50.312 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:11:50.313 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:11:50.313 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:11:50.324 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:11:50.325 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:11:50.325 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:11:50.328 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:11:50.328 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:11:50.333 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:11:50.337 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:11:50.338 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:11:50.341 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:11:50.342 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:11:50.342 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:11:50.444 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:11:50.446 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:11:50.447 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:11:50.453 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:11:50.460 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:11:50.464 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:12:00.311 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:12:00.314 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:12:00.325 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:12:00.328 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 82
+17:12:00.329 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:12:00.356 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 84
+17:12:00.356 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:12:00.361 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 86
+17:12:00.385 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 89
+17:12:00.385 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:12:00.387 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 8a
+17:12:00.395 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 8c
+17:12:05.448 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:12:05.449 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:12:05.460 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 8e
+17:12:05.461 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:12:05.461 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:12:05.465 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:12:05.465 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:12:05.507 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 92
+17:12:05.509 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 93
+17:12:19.041 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:12:25.946 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:12:30.623 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:33.731 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:38.288 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:41.697 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:46.246 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:50.045 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:54.622 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:15:58.677 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:03.260 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:07.304 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:11.856 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:15.954 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:20.561 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:24.856 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:29.467 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:33.663 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:38.212 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:43.015 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:47.595 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:51.440 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:56.032 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:16:56.412 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:01:30.707 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:01:30.710 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:30.710 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:30.712 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:01:30.712 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:30.714 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:30.715 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:01:30.715 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:30.716 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:30.719 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:01:30.719 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:30.722 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:01:30.724 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:01:30.725 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:30.726 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:01:30.726 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:01:30.726 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:30.824 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:01:30.825 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:01:30.827 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:30.838 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:30.839 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:30.844 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:01:40.713 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:40.715 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:40.716 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:40.847 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 8
+17:01:40.848 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:40.850 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 9
+17:01:40.851 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:40.853 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 7
+17:01:40.860 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:40.863 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: b
+17:01:40.866 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: c
+17:01:40.874 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: f
+17:01:45.828 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:45.829 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:45.837 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 12
+17:01:45.838 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:45.839 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:45.841 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:45.847 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:45.847 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 15
+17:01:45.863 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 16
+17:02:25.219 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:29.275 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:36.625 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:43.091 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:50.260 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:02:57.752 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:05.003 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:12.474 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:18.518 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:25.006 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:03:31.087 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:24.872 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:32.315 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:13:48.162 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:19:52.100 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:20:05.409 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:20:07.072 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:20:11.762 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:20:23.145 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:20:54.061 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:05.889 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:09.897 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:13.775 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:17.392 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:21.248 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:26.686 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:30.542 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:41.689 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:45.703 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:51.790 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:24:56.606 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:25:05.143 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:25:09.694 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:25:18.684 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:36:38.842 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:36:44.094 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:36:46.576 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:36:49.044 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:36:55.957 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:20.534 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:24.828 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:28.850 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:32.910 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:36.788 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:41.482 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:45.480 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:38:58.026 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:39:02.020 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:39:07.996 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:39:11.955 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:39:19.428 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:39:23.436 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:39:31.801 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:00.290 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:04.249 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:09.876 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:13.901 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:20.381 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:44:24.112 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:45:00.418 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:45:08.662 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:45:36.374 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:45:56.784 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:49:18.716 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:49:23.401 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:49:25.249 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:49:27.354 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:49:35.525 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:50:50.515 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:50:54.298 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:50:58.376 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:02.906 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:06.882 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:12.060 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:15.982 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:28.426 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:32.699 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:38.029 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:42.003 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:48.744 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:51:52.897 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:52:01.110 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:57:37.111 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:57:40.742 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:57:45.896 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:57:49.519 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:57:55.481 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:57:59.191 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:58:02.215 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:58:02.683 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:58:44.076 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: b
+17:58:44.077 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 15
+17:58:44.077 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: 7
+17:58:44.076 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 16
+17:58:44.078 [DEBUG] [    Development] [   FakeSensorSocketClient:  70] - FakeSensorSocketClient on close: 12
+17:58:44.077 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: f
+17:58:44.078 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: 8
+17:58:44.079 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: c
+17:58:44.079 [DEBUG] [    Development] [   FakeWorkerSocketClient:  68] - FakeWorkerSocketClient on close: 9
+17:58:51.112 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:58:51.114 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:58:51.116 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:58:51.117 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:58:51.119 [DEBUG] [    Development] [    SingleThreadScheduler:  79] - Kill SingleThreadScheduler
+17:58:51.120 [DEBUG] [    Development] [    SingleThreadScheduler:  85] - Kill scheduledExecutorService
+17:58:51.122 [DEBUG] [    Development] [         FakeWorkerThread: 265] - Kill appFakeWorkerClientOutcomeSink
+17:58:51.123 [DEBUG] [    Development] [         FakeWorkerThread: 283] - Kill appFakeWorkerClientOutcomeSink
+17:58:51.124 [DEBUG] [    Development] [         FakeWorkerThread: 265] - Kill appFakeWorkerClientOutcomeSink
+17:58:51.124 [DEBUG] [    Development] [         FakeWorkerThread: 283] - Kill appFakeWorkerClientOutcomeSink
+17:58:51.125 [DEBUG] [    Development] [         FakeWorkerThread: 265] - Kill appFakeWorkerClientOutcomeSink
+17:58:51.126 [DEBUG] [    Development] [         FakeWorkerThread: 283] - Kill appFakeWorkerClientOutcomeSink
+17:58:51.126 [DEBUG] [    Development] [              FakeWorkers:  40] - Kill scheduledExecutorService
+17:59:05.266 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:59:05.267 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:59:05.267 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:59:05.271 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:59:05.272 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:59:05.273 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:59:05.274 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:59:05.274 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:59:05.275 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:59:05.280 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:59:05.280 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:59:05.348 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:59:05.363 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:59:05.365 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:59:05.487 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:59:05.489 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:59:05.490 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:59:05.583 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:59:05.585 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:59:05.586 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:59:05.588 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:59:05.588 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:59:05.592 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:59:15.271 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:59:15.275 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:59:15.276 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:59:15.291 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 1ab
+17:59:15.292 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:59:15.291 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 1ac
+17:59:15.294 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:59:15.294 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 1ad
+17:59:15.294 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:59:15.321 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 1b0
+17:59:15.327 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 1b2
+17:59:15.328 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 1b3
+17:59:20.587 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:59:20.588 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:59:20.589 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:59:20.589 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:59:20.589 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:59:20.590 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:59:20.623 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 1b6
+17:59:20.625 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 1b7
+17:59:20.627 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 1ba
+17:59:32.967 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:59:39.962 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:59:44.488 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:02:47.709 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:02:52.290 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:02:55.824 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:00.620 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:04.248 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:08.881 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:13.078 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:17.919 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:22.033 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:26.631 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:31.343 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:35.921 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:40.038 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:44.706 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:48.847 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:53.426 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:03:58.040 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:04:02.646 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:04:06.643 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:04:11.215 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+18:04:11.601 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:01:31.822 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: rgbFakeWorker
+17:01:31.825 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:31.826 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:31.828 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: thermalFakeWorker
+17:01:31.828 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:31.828 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:31.829 [DEBUG] [    Development] [         FakeWorkerThread:  56] - New FakeWorkerThread for: appFakeWorker
+17:01:31.829 [DEBUG] [    Development] [         FakeWorkerThread:  57] - Capture stream: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:31.830 [DEBUG] [    Development] [         FakeWorkerThread:  58] - Outcome sink: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:31.832 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: rgbFakeSensor
+17:01:31.833 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:31.836 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:01:31.839 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: thermalFakeSensor
+17:01:31.839 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:31.840 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:01:31.840 [DEBUG] [    Development] [         FakeSensorThread:  47] - New FakeSensorThread for: appFakeSensor
+17:01:31.841 [DEBUG] [    Development] [         FakeSensorThread:  48] - Fake sensor uri: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:31.951 [DEBUG] [    Development] [         FakeSensorThread: 117] - sequence directories initialized
+17:01:31.952 [DEBUG] [    Development] [        FakeSensorFactory:  89] - Start FakeSensorThread
+17:01:31.953 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.955 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.960 [DEBUG] [    Development] [    SingleThreadScheduler:  37] - Start SingleThreadScheduler
+17:01:31.964 [DEBUG] [    Development] [        FakeSensorFactory: 330] - FakeSensorThreads initialized.
+17:01:41.829 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/rgbFakeWorker
+17:01:41.829 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/thermalFakeWorker
+17:01:41.830 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureStream/appFakeWorker
+17:01:41.887 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 7
+17:01:41.887 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/thermalFakeWorker
+17:01:41.888 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 8
+17:01:41.890 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/rgbFakeWorker
+17:01:41.890 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: 9
+17:01:41.890 [DEBUG] [    Development] [   FakeWorkerSocketClient:  30] - create fake worker client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/outcomeSink/appFakeWorker
+17:01:41.907 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: b
+17:01:41.914 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: d
+17:01:41.915 [DEBUG] [    Development] [   FakeWorkerSocketClient:  99] - FakeWorkerSocketClient on open: e
+17:01:46.954 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:46.956 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:46.956 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/appFakeSensor
+17:01:46.956 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/rgbFakeSensor
+17:01:46.961 [DEBUG] [    Development] [         FakeSensorThread: 166] - Send fake pipelineData to: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:46.961 [DEBUG] [    Development] [   FakeSensorSocketClient:  29] - Create fake sensor client endpoint: ws://localhost:8080/com.bsb-driveline.eye-sea.server-development/websocket/captureSink/thermalFakeSensor
+17:01:46.965 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 13
+17:01:46.978 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 16
+17:01:46.989 [DEBUG] [    Development] [   FakeSensorSocketClient: 104] - FakeSensorSocketClient on open: 17
+17:05:25.342 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:05:29.622 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:07.488 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:14.535 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:21.399 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:29.318 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:36.015 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:43.520 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
+17:07:49.669 [DEBUG] [    Development] [                     User: 236] - No thumbnail Found for this user.
