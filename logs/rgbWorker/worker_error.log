@@ -1,0 +1,7 @@
+2020-07-01 17:05:24,249 | worker                              | MainProcess    | ERROR    | --- exception in Worker: 
+Traceback (most recent call last):
+  File "/home/rgbWorker/run/src/worker.py", line 202, in work
+    det.print_info(print_info_config=None)
+  File "/home/rgbWorker/run/src/lib/pipeline/print_info.py", line 11, in print_info
+    for func_name in self.calculation_times:
+RuntimeError: dictionary changed size during iteration
