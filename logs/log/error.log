@@ -1,6 +1,6 @@
-18:01:25.653 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
-18:01:25.656 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
-18:01:25.752 [ERROR] [    Development] [       MFDBrandListener$1:  68] - Exception
+17:58:59.967 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: rgbFakeSensor
+17:58:59.971 [ERROR] [    Development] [         FakeSensorThread:  91] - No sequences for: thermalFakeSensor
+17:59:00.067 [ERROR] [    Development] [       MFDBrandListener$1:  68] - Exception
 java.lang.NullPointerException
 	at extern.bsb.server.configuration.listener.MFDBrandListener$1.PropertyChanged(MFDBrandListener.java:28) [classes/:?]
 	at extern.bsb.server.rest.StartupManager.startup(StartupManager.java:237) [classes/:?]
@@ -18,7 +18,7 @@ java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-18:01:40.708 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+17:59:15.072 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
 javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -36,7 +36,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	... 10 more
-18:01:40.709 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+17:59:15.072 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
 javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -54,7 +54,7 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	... 10 more
-18:01:40.709 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
+17:59:15.072 [ERROR] [    Development] [   FakeWorkerSocketClient:  37] - Exception
 javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -72,28 +72,12 @@ Caused by: java.util.concurrent.TimeoutException
 	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	... 10 more
-18:06:11.757 [ERROR] [       Pipeline] [          AppStreamServer: 203] - mapRadar  exception
-java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRITING] which is an invalid state for called method
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.checkState(WsRemoteEndpointImplBase.java:1174) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.textStart(WsRemoteEndpointImplBase.java:1136) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendStringByCompletion(WsRemoteEndpointImplBase.java:213) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendStringByFuture(WsRemoteEndpointImplBase.java:201) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointAsync.sendText(WsRemoteEndpointAsync.java:53) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at extern.bsb.server.websockets.AppStreamServer.notifyAllAsynchronous(AppStreamServer.java:199) [classes/:?]
-	at extern.bsb.server.socket.CaptureFusedConnection.run(CaptureFusedConnection.java:108) [classes/:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_232]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-18:06:49.345 [ERROR] [     Webservice] [             StatusSocket:  45] - Exception
-java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRITING] which is an invalid state for called method
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.checkState(WsRemoteEndpointImplBase.java:1174) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.textStart(WsRemoteEndpointImplBase.java:1136) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:194) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at extern.bsb.server.websockets.StatusSocket.updateAll(StatusSocket.java:41) [classes/:?]
-	at extern.bsb.server.factory.StatusFactory$1.run(StatusFactory.java:33) [classes/:?]
+17:59:20.065 [ERROR] [    Development] [   FakeSensorSocketClient:  35] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) [classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_232]
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_232]
@@ -101,41 +85,118 @@ java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRI
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-18:06:52.863 [ERROR] [     Webservice] [             StatusSocket:  71] - onError
-java.io.IOException: Broken pipe
-	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:1.8.0_232]
-	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[?:1.8.0_232]
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[?:1.8.0_232]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[?:1.8.0_232]
-	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[?:1.8.0_232]
-	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:124) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:183) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:94) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:61) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:165) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:132) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:99) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:80) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:452) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:340) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:272) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:586) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:520) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:71) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:186) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:198) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:96) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:647) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476) [tomcat8-coyote-8.0.32.jar:8.0.32]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_232]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:59:20.066 [ERROR] [    Development] [   FakeSensorSocketClient:  35] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) [classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_232]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat8-util-8.0.32.jar:8.0.32]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-18:06:57.055 [ERROR] [       Pipeline] [          AppStreamServer: 203] - mapRadar  exception
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_232]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:59:20.069 [ERROR] [    Development] [   FakeSensorSocketClient:  35] - Exception
+javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) [classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_232]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	... 10 more
+17:59:20.072 [ERROR] [    Development] [         FakeSensorThread: 198] - Exception
+java.lang.RuntimeException: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:36) ~[classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_232]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+17:59:20.075 [ERROR] [    Development] [         FakeSensorThread: 198] - Exception
+java.lang.RuntimeException: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:36) ~[classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_232]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+17:59:20.071 [ERROR] [    Development] [         FakeSensorThread: 198] - Exception
+java.lang.RuntimeException: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:36) ~[classes/:?]
+	at extern.bsb.server.dev.sensor.FakeSensorThread.run(FakeSensorThread.java:172) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_232]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_232]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: javax.websocket.DeploymentException: The HTTP request to initiate the WebSocket connection failed
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:428) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+Caused by: java.util.concurrent.TimeoutException
+	at sun.nio.ch.PendingFuture.get(PendingFuture.java:197) ~[?:1.8.0_232]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.processResponse(WsWebSocketContainer.java:708) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:375) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.WsWebSocketContainer.connectToServer(WsWebSocketContainer.java:182) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
+	at extern.bsb.server.dev.sensor.FakeSensorSocketClient.<init>(FakeSensorSocketClient.java:31) ~[classes/:?]
+	... 8 more
+18:00:58.464 [ERROR] [      Signaling] [          SignalingSocket: 223] - No SignalingSocket opened with: sensorFusionWorker
+18:03:34.139 [ERROR] [       Pipeline] [          AppStreamServer: 203] - mapRadar  exception
 java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRITING] which is an invalid state for called method
 	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.checkState(WsRemoteEndpointImplBase.java:1174) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.textStart(WsRemoteEndpointImplBase.java:1136) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
@@ -149,41 +210,7 @@ java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRI
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-18:07:03.230 [ERROR] [       Pipeline] [          AppStreamServer: 147] - onError
-java.io.IOException: Broken pipe
-	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:1.8.0_232]
-	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[?:1.8.0_232]
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[?:1.8.0_232]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[?:1.8.0_232]
-	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[?:1.8.0_232]
-	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:124) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:183) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:94) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:61) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:165) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:132) ~[tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:99) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:80) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:452) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:340) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:272) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:586) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:520) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:348) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:290) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:131) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:71) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:186) [tomcat8-websocket-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:198) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:96) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:647) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476) [tomcat8-coyote-8.0.32.jar:8.0.32]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat8-util-8.0.32.jar:8.0.32]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
-18:07:05.128 [ERROR] [       Pipeline] [          AppStreamServer: 203] - mapRadar  exception
+18:04:41.791 [ERROR] [       Pipeline] [          AppStreamServer: 203] - mapRadar  exception
 java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRITING] which is an invalid state for called method
 	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.checkState(WsRemoteEndpointImplBase.java:1174) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
 	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.textStart(WsRemoteEndpointImplBase.java:1136) ~[tomcat8-websocket-8.0.32.jar:8.0.32]
